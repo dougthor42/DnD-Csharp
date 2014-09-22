@@ -74,8 +74,8 @@
             this.textBox17 = new System.Windows.Forms.TextBox();
             this.textBox16 = new System.Windows.Forms.TextBox();
             this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.ui_saving_throw_dex = new System.Windows.Forms.TextBox();
+            this.ui_saving_throw_str = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.ui_pts_str)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ui_pts_dex)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ui_pts_con)).BeginInit();
@@ -93,6 +93,7 @@
             this.proficient_str.Size = new System.Drawing.Size(15, 14);
             this.proficient_str.TabIndex = 1;
             this.proficient_str.UseVisualStyleBackColor = true;
+            this.proficient_str.CheckedChanged += new System.EventHandler(this.proficient_str_CheckedChanged);
             // 
             // proficient_dex
             // 
@@ -489,12 +490,12 @@
             this.panel1.Controls.Add(this.label_wisdom);
             this.panel1.Controls.Add(this.points_con_total);
             this.panel1.Controls.Add(this.label_charisma);
-            this.panel1.Controls.Add(this.textBox14);
+            this.panel1.Controls.Add(this.ui_saving_throw_dex);
             this.panel1.Controls.Add(this.ui_score_dex);
             this.panel1.Controls.Add(this.ui_pts_str);
             this.panel1.Controls.Add(this.ui_points_dex_total);
             this.panel1.Controls.Add(this.ui_pts_dex);
-            this.panel1.Controls.Add(this.textBox13);
+            this.panel1.Controls.Add(this.ui_saving_throw_str);
             this.panel1.Controls.Add(this.ui_score_str);
             this.panel1.Controls.Add(this.ui_pts_con);
             this.panel1.Controls.Add(this.ui_points_str_total);
@@ -574,25 +575,25 @@
             this.textBox15.TabStop = false;
             this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox14
+            // ui_saving_throw_dex
             // 
-            this.textBox14.Location = new System.Drawing.Point(271, 84);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.ReadOnly = true;
-            this.textBox14.Size = new System.Drawing.Size(30, 20);
-            this.textBox14.TabIndex = 8;
-            this.textBox14.TabStop = false;
-            this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ui_saving_throw_dex.Location = new System.Drawing.Point(271, 84);
+            this.ui_saving_throw_dex.Name = "ui_saving_throw_dex";
+            this.ui_saving_throw_dex.ReadOnly = true;
+            this.ui_saving_throw_dex.Size = new System.Drawing.Size(30, 20);
+            this.ui_saving_throw_dex.TabIndex = 8;
+            this.ui_saving_throw_dex.TabStop = false;
+            this.ui_saving_throw_dex.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox13
+            // ui_saving_throw_str
             // 
-            this.textBox13.Location = new System.Drawing.Point(271, 57);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.ReadOnly = true;
-            this.textBox13.Size = new System.Drawing.Size(30, 20);
-            this.textBox13.TabIndex = 8;
-            this.textBox13.TabStop = false;
-            this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ui_saving_throw_str.Location = new System.Drawing.Point(271, 57);
+            this.ui_saving_throw_str.Name = "ui_saving_throw_str";
+            this.ui_saving_throw_str.ReadOnly = true;
+            this.ui_saving_throw_str.Size = new System.Drawing.Size(30, 20);
+            this.ui_saving_throw_str.TabIndex = 8;
+            this.ui_saving_throw_str.TabStop = false;
+            this.ui_saving_throw_str.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Form1
             // 
@@ -665,8 +666,8 @@
         private System.Windows.Forms.TextBox textBox17;
         private System.Windows.Forms.TextBox textBox16;
         private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox ui_saving_throw_dex;
+        private System.Windows.Forms.TextBox ui_saving_throw_str;
         private System.Windows.Forms.Label label_ability_scores;
         private System.Windows.Forms.Label label_saving_throws;
     }

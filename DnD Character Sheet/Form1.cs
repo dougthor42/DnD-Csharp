@@ -37,6 +37,10 @@ namespace WindowsFormsApplication1
 
             ui_pts_str.Value = points_str;
             ui_pts_dex.Value = points_dex;
+            ui_pts_con.Value = points_con;
+            ui_pts_int.Value = points_int;
+            ui_pts_wis.Value = points_wis;
+            ui_pts_cha.Value = points_cha;
 
         }
         
@@ -53,8 +57,25 @@ namespace WindowsFormsApplication1
         private void points_str_ValueChanged(object sender, EventArgs e)
         {
             //float str = points_str
-            double score = Math.Floor((float)ui_pts_str.Value / 2) - 5;
+            int score = (int)(Math.Floor((float)ui_pts_str.Value / 2) - 5);
+            int saving_throw_str = score;
             ui_score_str.Text = score.ToString();
+
+            if (proficient_str.Checked == true)
+            {
+                saving_throw_str = score + 2;
+            }
+            ui_saving_throw_str.Text = saving_throw_str.ToString();
+                
+        }
+
+        private void proficient_str_CheckedChanged(object sender, EventArgs e)
+        {
+            if (proficient_str.Checked == true)
+            {
+                //saving_throw_str = ui_score_str.Text + 2;
+            }
+            //ui_saving_throw_str.Text = saving_throw_str.ToString();
         }
     }
 }
