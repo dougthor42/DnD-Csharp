@@ -15,5 +15,15 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void label_constitution_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
