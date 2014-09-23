@@ -6,3 +6,5 @@ C:\Users\dthor\Documents\Visual Studio 2010\Projects\DnD\trunk\DnD Character She
 C:\Users\dthor\Documents\Visual Studio 2010\Projects\DnD\trunk\DnD Character Sheet\obj\x86\Debug\DnD Character Sheet.exe
 C:\Users\dthor\Documents\Visual Studio 2010\Projects\DnD\trunk\DnD Character Sheet\obj\x86\Debug\DnD Character Sheet.pdb
 C:\Users\dthor\Documents\Visual Studio 2010\Projects\DnD\trunk\DnD Character Sheet\obj\x86\Debug\DnD Character Sheet.csprojResolveAssemblyReference.cache
+C:\Users\dthor\Documents\Visual Studio 2010\Projects\DnD-Csharp\trunk\DnD Character Sheet\obj\x86\Debug\DnD Character Sheet.exe
+C:\Users\dthor\Documents\Visual Studio 2010\Projects\DnD-Csharp\trunk\DnD Character Sheet\obj\x86\Debug\DnD Character Sheet.pdb
