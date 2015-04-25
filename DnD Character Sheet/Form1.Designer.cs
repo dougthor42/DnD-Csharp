@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.proficient_str = new System.Windows.Forms.CheckBox();
             this.proficient_dex = new System.Windows.Forms.CheckBox();
             this.proficient_con = new System.Windows.Forms.CheckBox();
@@ -76,6 +77,7 @@
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.ui_saving_throw_dex = new System.Windows.Forms.TextBox();
             this.ui_saving_throw_str = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ui_pts_str)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ui_pts_dex)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ui_pts_con)).BeginInit();
@@ -87,378 +89,254 @@
             // 
             // proficient_str
             // 
-            this.proficient_str.AutoSize = true;
-            this.proficient_str.Location = new System.Drawing.Point(208, 60);
+            resources.ApplyResources(this.proficient_str, "proficient_str");
             this.proficient_str.Name = "proficient_str";
-            this.proficient_str.Size = new System.Drawing.Size(15, 14);
-            this.proficient_str.TabIndex = 1;
             this.proficient_str.UseVisualStyleBackColor = true;
             this.proficient_str.CheckedChanged += new System.EventHandler(this.proficient_str_CheckedChanged);
             // 
             // proficient_dex
             // 
-            this.proficient_dex.AutoSize = true;
-            this.proficient_dex.Location = new System.Drawing.Point(208, 86);
+            resources.ApplyResources(this.proficient_dex, "proficient_dex");
             this.proficient_dex.Name = "proficient_dex";
-            this.proficient_dex.Size = new System.Drawing.Size(15, 14);
-            this.proficient_dex.TabIndex = 1;
             this.proficient_dex.UseVisualStyleBackColor = true;
             // 
             // proficient_con
             // 
-            this.proficient_con.AutoSize = true;
-            this.proficient_con.Location = new System.Drawing.Point(208, 111);
+            resources.ApplyResources(this.proficient_con, "proficient_con");
             this.proficient_con.Name = "proficient_con";
-            this.proficient_con.Size = new System.Drawing.Size(15, 14);
-            this.proficient_con.TabIndex = 1;
             this.proficient_con.UseVisualStyleBackColor = true;
             // 
             // proficient_int
             // 
-            this.proficient_int.AutoSize = true;
-            this.proficient_int.Location = new System.Drawing.Point(208, 137);
+            resources.ApplyResources(this.proficient_int, "proficient_int");
             this.proficient_int.Name = "proficient_int";
-            this.proficient_int.Size = new System.Drawing.Size(15, 14);
-            this.proficient_int.TabIndex = 1;
             this.proficient_int.UseVisualStyleBackColor = true;
             // 
             // proficient_wis
             // 
-            this.proficient_wis.AutoSize = true;
-            this.proficient_wis.Location = new System.Drawing.Point(208, 165);
+            resources.ApplyResources(this.proficient_wis, "proficient_wis");
             this.proficient_wis.Name = "proficient_wis";
-            this.proficient_wis.Size = new System.Drawing.Size(15, 14);
-            this.proficient_wis.TabIndex = 1;
             this.proficient_wis.UseVisualStyleBackColor = true;
             // 
             // proficient_cha
             // 
-            this.proficient_cha.AutoSize = true;
-            this.proficient_cha.Location = new System.Drawing.Point(208, 189);
+            resources.ApplyResources(this.proficient_cha, "proficient_cha");
             this.proficient_cha.Name = "proficient_cha";
-            this.proficient_cha.Size = new System.Drawing.Size(15, 14);
-            this.proficient_cha.TabIndex = 1;
             this.proficient_cha.UseVisualStyleBackColor = true;
             this.proficient_cha.CheckedChanged += new System.EventHandler(this.proficient_cha_CheckedChanged);
             // 
             // label_strength
             // 
-            this.label_strength.AutoSize = true;
-            this.label_strength.Location = new System.Drawing.Point(20, 64);
+            resources.ApplyResources(this.label_strength, "label_strength");
             this.label_strength.Name = "label_strength";
-            this.label_strength.Size = new System.Drawing.Size(47, 13);
-            this.label_strength.TabIndex = 2;
-            this.label_strength.Text = "Strength";
-            this.label_strength.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label_dexterity
             // 
-            this.label_dexterity.AutoSize = true;
-            this.label_dexterity.Location = new System.Drawing.Point(19, 90);
+            resources.ApplyResources(this.label_dexterity, "label_dexterity");
             this.label_dexterity.Name = "label_dexterity";
-            this.label_dexterity.Size = new System.Drawing.Size(48, 13);
-            this.label_dexterity.TabIndex = 2;
-            this.label_dexterity.Text = "Dexterity";
-            this.label_dexterity.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label_constitution
             // 
-            this.label_constitution.AutoSize = true;
-            this.label_constitution.Location = new System.Drawing.Point(5, 116);
+            resources.ApplyResources(this.label_constitution, "label_constitution");
             this.label_constitution.Name = "label_constitution";
-            this.label_constitution.Size = new System.Drawing.Size(62, 13);
-            this.label_constitution.TabIndex = 2;
-            this.label_constitution.Text = "Constitution";
-            this.label_constitution.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label_intelligence
             // 
-            this.label_intelligence.AutoSize = true;
-            this.label_intelligence.Location = new System.Drawing.Point(6, 142);
+            resources.ApplyResources(this.label_intelligence, "label_intelligence");
             this.label_intelligence.Name = "label_intelligence";
-            this.label_intelligence.Size = new System.Drawing.Size(61, 13);
-            this.label_intelligence.TabIndex = 2;
-            this.label_intelligence.Text = "Intelligence";
-            this.label_intelligence.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label_wisdom
             // 
-            this.label_wisdom.AutoSize = true;
-            this.label_wisdom.Location = new System.Drawing.Point(22, 168);
+            resources.ApplyResources(this.label_wisdom, "label_wisdom");
             this.label_wisdom.Name = "label_wisdom";
-            this.label_wisdom.Size = new System.Drawing.Size(45, 13);
-            this.label_wisdom.TabIndex = 2;
-            this.label_wisdom.Text = "Wisdom";
-            this.label_wisdom.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label_charisma
             // 
-            this.label_charisma.AutoSize = true;
-            this.label_charisma.Location = new System.Drawing.Point(17, 194);
+            resources.ApplyResources(this.label_charisma, "label_charisma");
             this.label_charisma.Name = "label_charisma";
-            this.label_charisma.Size = new System.Drawing.Size(50, 13);
-            this.label_charisma.TabIndex = 2;
-            this.label_charisma.Text = "Charisma";
-            this.label_charisma.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // ui_pts_str
             // 
-            this.ui_pts_str.Location = new System.Drawing.Point(69, 60);
+            resources.ApplyResources(this.ui_pts_str, "ui_pts_str");
             this.ui_pts_str.Name = "ui_pts_str";
-            this.ui_pts_str.Size = new System.Drawing.Size(42, 20);
-            this.ui_pts_str.TabIndex = 2;
             this.ui_pts_str.ValueChanged += new System.EventHandler(this.points_str_ValueChanged);
             // 
             // ui_pts_dex
             // 
-            this.ui_pts_dex.Location = new System.Drawing.Point(69, 86);
+            resources.ApplyResources(this.ui_pts_dex, "ui_pts_dex");
             this.ui_pts_dex.Name = "ui_pts_dex";
-            this.ui_pts_dex.Size = new System.Drawing.Size(42, 20);
-            this.ui_pts_dex.TabIndex = 3;
             // 
             // ui_pts_con
             // 
-            this.ui_pts_con.Location = new System.Drawing.Point(69, 112);
+            resources.ApplyResources(this.ui_pts_con, "ui_pts_con");
             this.ui_pts_con.Name = "ui_pts_con";
-            this.ui_pts_con.Size = new System.Drawing.Size(42, 20);
-            this.ui_pts_con.TabIndex = 4;
             // 
             // ui_pts_int
             // 
-            this.ui_pts_int.Location = new System.Drawing.Point(69, 138);
+            resources.ApplyResources(this.ui_pts_int, "ui_pts_int");
             this.ui_pts_int.Name = "ui_pts_int";
-            this.ui_pts_int.Size = new System.Drawing.Size(42, 20);
-            this.ui_pts_int.TabIndex = 5;
             // 
             // ui_pts_wis
             // 
-            this.ui_pts_wis.Location = new System.Drawing.Point(69, 164);
+            resources.ApplyResources(this.ui_pts_wis, "ui_pts_wis");
             this.ui_pts_wis.Name = "ui_pts_wis";
-            this.ui_pts_wis.Size = new System.Drawing.Size(42, 20);
-            this.ui_pts_wis.TabIndex = 6;
             // 
             // ui_pts_cha
             // 
-            this.ui_pts_cha.Location = new System.Drawing.Point(69, 190);
+            resources.ApplyResources(this.ui_pts_cha, "ui_pts_cha");
             this.ui_pts_cha.Name = "ui_pts_cha";
-            this.ui_pts_cha.Size = new System.Drawing.Size(42, 20);
-            this.ui_pts_cha.TabIndex = 7;
             // 
             // comboBox_class
             // 
+            resources.ApplyResources(this.comboBox_class, "comboBox_class");
             this.comboBox_class.FormattingEnabled = true;
             this.comboBox_class.Items.AddRange(new object[] {
-            "Barbarian",
-            "Cleric",
-            "Druid",
-            "Fighter",
-            "Hunter",
-            "Monk",
-            "Paladin",
-            "Sorcorer",
-            "Warlock",
-            "Wizard"});
-            this.comboBox_class.Location = new System.Drawing.Point(12, 155);
+            resources.GetString("comboBox_class.Items"),
+            resources.GetString("comboBox_class.Items1"),
+            resources.GetString("comboBox_class.Items2"),
+            resources.GetString("comboBox_class.Items3"),
+            resources.GetString("comboBox_class.Items4"),
+            resources.GetString("comboBox_class.Items5"),
+            resources.GetString("comboBox_class.Items6"),
+            resources.GetString("comboBox_class.Items7"),
+            resources.GetString("comboBox_class.Items8"),
+            resources.GetString("comboBox_class.Items9")});
             this.comboBox_class.Name = "comboBox_class";
-            this.comboBox_class.Size = new System.Drawing.Size(121, 21);
-            this.comboBox_class.TabIndex = 1;
             // 
             // label_class
             // 
-            this.label_class.AutoSize = true;
-            this.label_class.Location = new System.Drawing.Point(11, 139);
+            resources.ApplyResources(this.label_class, "label_class");
             this.label_class.Name = "label_class";
-            this.label_class.Size = new System.Drawing.Size(32, 13);
-            this.label_class.TabIndex = 5;
-            this.label_class.Text = "Class";
             // 
             // comboBox_race
             // 
+            resources.ApplyResources(this.comboBox_race, "comboBox_race");
             this.comboBox_race.FormattingEnabled = true;
             this.comboBox_race.Items.AddRange(new object[] {
-            "Dwarf",
-            "Elf",
-            "Halfling",
-            "Human",
-            "Dragonborn",
-            "Gnome",
-            "Half-Elf",
-            "Half-Orc",
-            "Tiefling"});
-            this.comboBox_race.Location = new System.Drawing.Point(12, 100);
+            resources.GetString("comboBox_race.Items"),
+            resources.GetString("comboBox_race.Items1"),
+            resources.GetString("comboBox_race.Items2"),
+            resources.GetString("comboBox_race.Items3"),
+            resources.GetString("comboBox_race.Items4"),
+            resources.GetString("comboBox_race.Items5"),
+            resources.GetString("comboBox_race.Items6"),
+            resources.GetString("comboBox_race.Items7"),
+            resources.GetString("comboBox_race.Items8")});
             this.comboBox_race.Name = "comboBox_race";
-            this.comboBox_race.Size = new System.Drawing.Size(121, 21);
-            this.comboBox_race.TabIndex = 0;
             this.comboBox_race.SelectedIndexChanged += new System.EventHandler(this.comboBox_race_SelectedIndexChanged);
             // 
             // label_race
             // 
-            this.label_race.AutoSize = true;
-            this.label_race.Location = new System.Drawing.Point(11, 84);
+            resources.ApplyResources(this.label_race, "label_race");
             this.label_race.Name = "label_race";
-            this.label_race.Size = new System.Drawing.Size(33, 13);
-            this.label_race.TabIndex = 5;
-            this.label_race.Text = "Race";
             // 
             // ui_points_str_total
             // 
-            this.ui_points_str_total.Location = new System.Drawing.Point(114, 60);
+            resources.ApplyResources(this.ui_points_str_total, "ui_points_str_total");
             this.ui_points_str_total.Name = "ui_points_str_total";
             this.ui_points_str_total.ReadOnly = true;
-            this.ui_points_str_total.Size = new System.Drawing.Size(30, 20);
-            this.ui_points_str_total.TabIndex = 8;
             this.ui_points_str_total.TabStop = false;
-            this.ui_points_str_total.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ui_points_dex_total
             // 
-            this.ui_points_dex_total.Location = new System.Drawing.Point(114, 87);
+            resources.ApplyResources(this.ui_points_dex_total, "ui_points_dex_total");
             this.ui_points_dex_total.Name = "ui_points_dex_total";
             this.ui_points_dex_total.ReadOnly = true;
-            this.ui_points_dex_total.Size = new System.Drawing.Size(30, 20);
-            this.ui_points_dex_total.TabIndex = 8;
             this.ui_points_dex_total.TabStop = false;
-            this.ui_points_dex_total.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // points_con_total
             // 
-            this.points_con_total.Location = new System.Drawing.Point(114, 112);
+            resources.ApplyResources(this.points_con_total, "points_con_total");
             this.points_con_total.Name = "points_con_total";
             this.points_con_total.ReadOnly = true;
-            this.points_con_total.Size = new System.Drawing.Size(30, 20);
-            this.points_con_total.TabIndex = 8;
             this.points_con_total.TabStop = false;
-            this.points_con_total.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // points_int_total
             // 
-            this.points_int_total.Location = new System.Drawing.Point(114, 138);
+            resources.ApplyResources(this.points_int_total, "points_int_total");
             this.points_int_total.Name = "points_int_total";
             this.points_int_total.ReadOnly = true;
-            this.points_int_total.Size = new System.Drawing.Size(30, 20);
-            this.points_int_total.TabIndex = 8;
             this.points_int_total.TabStop = false;
-            this.points_int_total.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // points_wis_total
             // 
-            this.points_wis_total.Location = new System.Drawing.Point(114, 164);
+            resources.ApplyResources(this.points_wis_total, "points_wis_total");
             this.points_wis_total.Name = "points_wis_total";
             this.points_wis_total.ReadOnly = true;
-            this.points_wis_total.Size = new System.Drawing.Size(30, 20);
-            this.points_wis_total.TabIndex = 8;
             this.points_wis_total.TabStop = false;
-            this.points_wis_total.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // points_int_cha
             // 
-            this.points_int_cha.Location = new System.Drawing.Point(114, 190);
+            resources.ApplyResources(this.points_int_cha, "points_int_cha");
             this.points_int_cha.Name = "points_int_cha";
             this.points_int_cha.ReadOnly = true;
-            this.points_int_cha.Size = new System.Drawing.Size(30, 20);
-            this.points_int_cha.TabIndex = 8;
             this.points_int_cha.TabStop = false;
-            this.points_int_cha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label_score
             // 
-            this.label_score.AutoSize = true;
-            this.label_score.Location = new System.Drawing.Point(151, 42);
+            resources.ApplyResources(this.label_score, "label_score");
             this.label_score.Name = "label_score";
-            this.label_score.Size = new System.Drawing.Size(35, 13);
-            this.label_score.TabIndex = 9;
-            this.label_score.Text = "Score";
             // 
             // label_attr_points
             // 
-            this.label_attr_points.AutoSize = true;
-            this.label_attr_points.Location = new System.Drawing.Point(71, 42);
+            resources.ApplyResources(this.label_attr_points, "label_attr_points");
             this.label_attr_points.Name = "label_attr_points";
-            this.label_attr_points.Size = new System.Drawing.Size(36, 13);
-            this.label_attr_points.TabIndex = 10;
-            this.label_attr_points.Text = "Points";
             // 
             // label_attr_points_total
             // 
-            this.label_attr_points_total.AutoSize = true;
-            this.label_attr_points_total.Location = new System.Drawing.Point(113, 42);
+            resources.ApplyResources(this.label_attr_points_total, "label_attr_points_total");
             this.label_attr_points_total.Name = "label_attr_points_total";
-            this.label_attr_points_total.Size = new System.Drawing.Size(31, 13);
-            this.label_attr_points_total.TabIndex = 11;
-            this.label_attr_points_total.Text = "Total";
             // 
             // ui_score_str
             // 
-            this.ui_score_str.Location = new System.Drawing.Point(150, 60);
+            resources.ApplyResources(this.ui_score_str, "ui_score_str");
             this.ui_score_str.Name = "ui_score_str";
             this.ui_score_str.ReadOnly = true;
-            this.ui_score_str.Size = new System.Drawing.Size(30, 20);
-            this.ui_score_str.TabIndex = 8;
             this.ui_score_str.TabStop = false;
-            this.ui_score_str.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ui_score_dex
             // 
-            this.ui_score_dex.Location = new System.Drawing.Point(150, 87);
+            resources.ApplyResources(this.ui_score_dex, "ui_score_dex");
             this.ui_score_dex.Name = "ui_score_dex";
             this.ui_score_dex.ReadOnly = true;
-            this.ui_score_dex.Size = new System.Drawing.Size(30, 20);
-            this.ui_score_dex.TabIndex = 8;
             this.ui_score_dex.TabStop = false;
-            this.ui_score_dex.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // score_con
             // 
-            this.score_con.Location = new System.Drawing.Point(150, 112);
+            resources.ApplyResources(this.score_con, "score_con");
             this.score_con.Name = "score_con";
             this.score_con.ReadOnly = true;
-            this.score_con.Size = new System.Drawing.Size(30, 20);
-            this.score_con.TabIndex = 8;
             this.score_con.TabStop = false;
-            this.score_con.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // score_int
             // 
-            this.score_int.Location = new System.Drawing.Point(150, 138);
+            resources.ApplyResources(this.score_int, "score_int");
             this.score_int.Name = "score_int";
             this.score_int.ReadOnly = true;
-            this.score_int.Size = new System.Drawing.Size(30, 20);
-            this.score_int.TabIndex = 8;
             this.score_int.TabStop = false;
-            this.score_int.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // score_wis
             // 
-            this.score_wis.Location = new System.Drawing.Point(150, 164);
+            resources.ApplyResources(this.score_wis, "score_wis");
             this.score_wis.Name = "score_wis";
             this.score_wis.ReadOnly = true;
-            this.score_wis.Size = new System.Drawing.Size(30, 20);
-            this.score_wis.TabIndex = 8;
             this.score_wis.TabStop = false;
-            this.score_wis.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // score_cha
             // 
-            this.score_cha.Location = new System.Drawing.Point(150, 190);
+            resources.ApplyResources(this.score_cha, "score_cha");
             this.score_cha.Name = "score_cha";
             this.score_cha.ReadOnly = true;
-            this.score_cha.Size = new System.Drawing.Size(30, 20);
-            this.score_cha.TabIndex = 8;
             this.score_cha.TabStop = false;
-            this.score_cha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label_attr_proficient
             // 
-            this.label_attr_proficient.AutoSize = true;
-            this.label_attr_proficient.Location = new System.Drawing.Point(192, 42);
+            resources.ApplyResources(this.label_attr_proficient, "label_attr_proficient");
             this.label_attr_proficient.Name = "label_attr_proficient";
-            this.label_attr_proficient.Size = new System.Drawing.Size(57, 13);
-            this.label_attr_proficient.TabIndex = 12;
-            this.label_attr_proficient.Text = "Proficient?";
-            this.label_attr_proficient.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel1
             // 
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Controls.Add(this.label_ability_scores);
             this.panel1.Controls.Add(this.label_saving_throws);
             this.panel1.Controls.Add(this.label_attr_saving_throw_bonus);
@@ -502,111 +380,82 @@
             this.panel1.Controls.Add(this.ui_pts_int);
             this.panel1.Controls.Add(this.ui_pts_wis);
             this.panel1.Controls.Add(this.ui_pts_cha);
-            this.panel1.Location = new System.Drawing.Point(197, 43);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(318, 235);
-            this.panel1.TabIndex = 13;
             // 
             // label_ability_scores
             // 
-            this.label_ability_scores.AutoSize = true;
-            this.label_ability_scores.Location = new System.Drawing.Point(90, 25);
+            resources.ApplyResources(this.label_ability_scores, "label_ability_scores");
             this.label_ability_scores.Name = "label_ability_scores";
-            this.label_ability_scores.Size = new System.Drawing.Size(70, 13);
-            this.label_ability_scores.TabIndex = 15;
-            this.label_ability_scores.Text = "Ability Scores";
             // 
             // label_saving_throws
             // 
-            this.label_saving_throws.AutoSize = true;
-            this.label_saving_throws.Location = new System.Drawing.Point(214, 25);
+            resources.ApplyResources(this.label_saving_throws, "label_saving_throws");
             this.label_saving_throws.Name = "label_saving_throws";
-            this.label_saving_throws.Size = new System.Drawing.Size(78, 13);
-            this.label_saving_throws.TabIndex = 14;
-            this.label_saving_throws.Text = "Saving Throws";
             // 
             // label_attr_saving_throw_bonus
             // 
-            this.label_attr_saving_throw_bonus.AutoSize = true;
-            this.label_attr_saving_throw_bonus.Location = new System.Drawing.Point(264, 42);
+            resources.ApplyResources(this.label_attr_saving_throw_bonus, "label_attr_saving_throw_bonus");
             this.label_attr_saving_throw_bonus.Name = "label_attr_saving_throw_bonus";
-            this.label_attr_saving_throw_bonus.Size = new System.Drawing.Size(37, 13);
-            this.label_attr_saving_throw_bonus.TabIndex = 13;
-            this.label_attr_saving_throw_bonus.Text = "Bonus";
-            this.label_attr_saving_throw_bonus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox18
             // 
-            this.textBox18.Location = new System.Drawing.Point(271, 187);
+            resources.ApplyResources(this.textBox18, "textBox18");
             this.textBox18.Name = "textBox18";
             this.textBox18.ReadOnly = true;
-            this.textBox18.Size = new System.Drawing.Size(30, 20);
-            this.textBox18.TabIndex = 8;
             this.textBox18.TabStop = false;
-            this.textBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox17
             // 
-            this.textBox17.Location = new System.Drawing.Point(271, 161);
+            resources.ApplyResources(this.textBox17, "textBox17");
             this.textBox17.Name = "textBox17";
             this.textBox17.ReadOnly = true;
-            this.textBox17.Size = new System.Drawing.Size(30, 20);
-            this.textBox17.TabIndex = 8;
             this.textBox17.TabStop = false;
-            this.textBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox16
             // 
-            this.textBox16.Location = new System.Drawing.Point(271, 135);
+            resources.ApplyResources(this.textBox16, "textBox16");
             this.textBox16.Name = "textBox16";
             this.textBox16.ReadOnly = true;
-            this.textBox16.Size = new System.Drawing.Size(30, 20);
-            this.textBox16.TabIndex = 8;
             this.textBox16.TabStop = false;
-            this.textBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox15
             // 
-            this.textBox15.Location = new System.Drawing.Point(271, 109);
+            resources.ApplyResources(this.textBox15, "textBox15");
             this.textBox15.Name = "textBox15";
             this.textBox15.ReadOnly = true;
-            this.textBox15.Size = new System.Drawing.Size(30, 20);
-            this.textBox15.TabIndex = 8;
             this.textBox15.TabStop = false;
-            this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ui_saving_throw_dex
             // 
-            this.ui_saving_throw_dex.Location = new System.Drawing.Point(271, 84);
+            resources.ApplyResources(this.ui_saving_throw_dex, "ui_saving_throw_dex");
             this.ui_saving_throw_dex.Name = "ui_saving_throw_dex";
             this.ui_saving_throw_dex.ReadOnly = true;
-            this.ui_saving_throw_dex.Size = new System.Drawing.Size(30, 20);
-            this.ui_saving_throw_dex.TabIndex = 8;
             this.ui_saving_throw_dex.TabStop = false;
-            this.ui_saving_throw_dex.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ui_saving_throw_str
             // 
-            this.ui_saving_throw_str.Location = new System.Drawing.Point(271, 57);
+            resources.ApplyResources(this.ui_saving_throw_str, "ui_saving_throw_str");
             this.ui_saving_throw_str.Name = "ui_saving_throw_str";
             this.ui_saving_throw_str.ReadOnly = true;
-            this.ui_saving_throw_str.Size = new System.Drawing.Size(30, 20);
-            this.ui_saving_throw_str.TabIndex = 8;
             this.ui_saving_throw_str.TabStop = false;
-            this.ui_saving_throw_str.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(816, 613);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label_race);
             this.Controls.Add(this.comboBox_race);
             this.Controls.Add(this.label_class);
             this.Controls.Add(this.comboBox_class);
             this.Name = "Form1";
-            this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.ui_pts_str)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ui_pts_dex)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ui_pts_con)).EndInit();
@@ -670,6 +519,7 @@
         private System.Windows.Forms.TextBox ui_saving_throw_str;
         private System.Windows.Forms.Label label_ability_scores;
         private System.Windows.Forms.Label label_saving_throws;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -117,4 +117,1300 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="proficient_cha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="&gt;&gt;label_class.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label_attr_points.Text" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="&gt;&gt;label_class.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="score_int.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label_charisma.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 194</value>
+  </data>
+  <data name="score_wis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;proficient_con.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="proficient_int.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="label_intelligence.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 135</value>
+  </data>
+  <data name="label_charisma.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label_charisma.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="score_con.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="label_attr_points.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 42</value>
+  </data>
+  <data name="label_attr_points.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_cha.Name" xml:space="preserve">
+    <value>ui_pts_cha</value>
+  </data>
+  <data name="&gt;&gt;points_int_cha.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label_wisdom.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;points_int_cha.Name" xml:space="preserve">
+    <value>points_int_cha</value>
+  </data>
+  <data name="ui_pts_wis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="ui_points_str_total.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 60</value>
+  </data>
+  <data name="label_intelligence.Text" xml:space="preserve">
+    <value>Intelligence</value>
+  </data>
+  <data name="&gt;&gt;points_int_cha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;points_int_total.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;label_score.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_attr_points_total.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;proficient_str.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="textBox16.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="ui_pts_cha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="label_ability_scores.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="score_int.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="score_wis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 164</value>
+  </data>
+  <data name="&gt;&gt;textBox18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_ability_scores.Text" xml:space="preserve">
+    <value>Ability Scores</value>
+  </data>
+  <data name="&gt;&gt;textBox15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_dexterity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="&gt;&gt;proficient_wis.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label_class.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_con.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;textBox15.Name" xml:space="preserve">
+    <value>textBox15</value>
+  </data>
+  <data name="label_attr_points.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="proficient_str.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="proficient_wis.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ui_points_str_total.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="textBox18.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="proficient_cha.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;comboBox_class.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_cha.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="proficient_dex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_con.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="ui_points_str_total.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label_intelligence.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="proficient_con.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="points_con_total.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 112</value>
+  </data>
+  <data name="label_attr_points_total.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="&gt;&gt;points_int_total.Name" xml:space="preserve">
+    <value>points_int_total</value>
+  </data>
+  <data name="label_saving_throws.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="proficient_con.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 111</value>
+  </data>
+  <data name="&gt;&gt;textBox17.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label_strength.Text" xml:space="preserve">
+    <value>Strength</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;proficient_wis.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label_score.Name" xml:space="preserve">
+    <value>label_score</value>
+  </data>
+  <data name="textBox18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="ui_score_str.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ui_saving_throw_dex.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="ui_saving_throw_dex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 84</value>
+  </data>
+  <data name="ui_score_dex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;comboBox_race.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;proficient_con.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="textBox17.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;label_intelligence.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="label_score.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="points_con_total.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;label_saving_throws.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="points_con_total.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="comboBox_race.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label_strength.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_wis.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label_attr_proficient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_charisma.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="proficient_str.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 60</value>
+  </data>
+  <data name="label_constitution.Text" xml:space="preserve">
+    <value>Constitution</value>
+  </data>
+  <data name="&gt;&gt;label_saving_throws.Name" xml:space="preserve">
+    <value>label_saving_throws</value>
+  </data>
+  <data name="label_intelligence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 142</value>
+  </data>
+  <data name="ui_saving_throw_dex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;textBox15.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;ui_score_dex.Name" xml:space="preserve">
+    <value>ui_score_dex</value>
+  </data>
+  <data name="&gt;&gt;proficient_dex.Name" xml:space="preserve">
+    <value>proficient_dex</value>
+  </data>
+  <data name="&gt;&gt;ui_score_str.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label_attr_points_total.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="score_con.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;proficient_con.Name" xml:space="preserve">
+    <value>proficient_con</value>
+  </data>
+  <data name="proficient_str.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label_attr_points.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label_saving_throws.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 25</value>
+  </data>
+  <data name="&gt;&gt;ui_points_str_total.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;proficient_str.Name" xml:space="preserve">
+    <value>proficient_str</value>
+  </data>
+  <data name="&gt;&gt;label_intelligence.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label_wisdom.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label_charisma.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="textBox15.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label_class.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label_saving_throws.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="&gt;&gt;label_wisdom.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;textBox16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;proficient_str.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox_race.Items6" xml:space="preserve">
+    <value>Half-Elf</value>
+  </data>
+  <data name="&gt;&gt;ui_points_dex_total.Name" xml:space="preserve">
+    <value>ui_points_dex_total</value>
+  </data>
+  <data name="&gt;&gt;points_int_cha.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label_strength.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_race.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_int.Name" xml:space="preserve">
+    <value>ui_pts_int</value>
+  </data>
+  <data name="points_int_total.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="points_int_cha.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;points_wis_total.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="score_con.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 112</value>
+  </data>
+  <data name="&gt;&gt;proficient_int.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_class.Text" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="ui_points_str_total.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="label_dexterity.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label_attr_points.Name" xml:space="preserve">
+    <value>label_attr_points</value>
+  </data>
+  <data name="&gt;&gt;ui_saving_throw_str.Name" xml:space="preserve">
+    <value>ui_saving_throw_str</value>
+  </data>
+  <data name="&gt;&gt;ui_saving_throw_dex.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="ui_saving_throw_dex.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label_attr_saving_throw_bonus.Name" xml:space="preserve">
+    <value>label_attr_saving_throw_bonus</value>
+  </data>
+  <data name="&gt;&gt;proficient_cha.Name" xml:space="preserve">
+    <value>proficient_cha</value>
+  </data>
+  <data name="&gt;&gt;score_cha.Name" xml:space="preserve">
+    <value>score_cha</value>
+  </data>
+  <data name="label_charisma.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_cha.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="comboBox_race.Items1" xml:space="preserve">
+    <value>Elf</value>
+  </data>
+  <data name="label_class.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label_attr_points.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="proficient_dex.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="textBox16.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="textBox18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 187</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_int.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="ui_points_dex_total.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;score_wis.Name" xml:space="preserve">
+    <value>score_wis</value>
+  </data>
+  <data name="&gt;&gt;score_con.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="label_class.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 139</value>
+  </data>
+  <data name="&gt;&gt;score_con.Name" xml:space="preserve">
+    <value>score_con</value>
+  </data>
+  <data name="points_wis_total.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBox_class.Items9" xml:space="preserve">
+    <value>Wizard</value>
+  </data>
+  <data name="comboBox_class.Items8" xml:space="preserve">
+    <value>Warlock</value>
+  </data>
+  <data name="&gt;&gt;label_dexterity.Name" xml:space="preserve">
+    <value>label_dexterity</value>
+  </data>
+  <data name="comboBox_class.Items6" xml:space="preserve">
+    <value>Paladin</value>
+  </data>
+  <data name="comboBox_class.Items5" xml:space="preserve">
+    <value>Monk</value>
+  </data>
+  <data name="comboBox_class.Items4" xml:space="preserve">
+    <value>Hunter</value>
+  </data>
+  <data name="comboBox_class.Items3" xml:space="preserve">
+    <value>Fighter</value>
+  </data>
+  <data name="comboBox_class.Items2" xml:space="preserve">
+    <value>Druid</value>
+  </data>
+  <data name="comboBox_class.Items1" xml:space="preserve">
+    <value>Cleric</value>
+  </data>
+  <data name="&gt;&gt;label_constitution.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="label_attr_proficient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="&gt;&gt;proficient_int.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;textBox18.Name" xml:space="preserve">
+    <value>textBox18</value>
+  </data>
+  <data name="&gt;&gt;proficient_cha.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;points_wis_total.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="comboBox_race.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="label_attr_proficient.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="comboBox_race.Items8" xml:space="preserve">
+    <value>Tiefling</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_str.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="label_strength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="&gt;&gt;label_wisdom.Name" xml:space="preserve">
+    <value>label_wisdom</value>
+  </data>
+  <data name="ui_saving_throw_str.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_wis.Name" xml:space="preserve">
+    <value>ui_pts_wis</value>
+  </data>
+  <data name="&gt;&gt;points_int_total.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="comboBox_race.Items3" xml:space="preserve">
+    <value>Human</value>
+  </data>
+  <data name="label_ability_scores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_int.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;score_con.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label_score.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="proficient_wis.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="points_int_total.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label_strength.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="score_cha.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="points_int_total.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 138</value>
+  </data>
+  <data name="score_int.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 138</value>
+  </data>
+  <data name="&gt;&gt;label_strength.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;score_con.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;points_con_total.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label_race.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ui_score_str.Name" xml:space="preserve">
+    <value>ui_score_str</value>
+  </data>
+  <data name="label_strength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 64</value>
+  </data>
+  <data name="label_attr_points_total.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="label_attr_points.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="comboBox_race.Items2" xml:space="preserve">
+    <value>Halfling</value>
+  </data>
+  <data name="&gt;&gt;ui_points_str_total.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="label_attr_saving_throw_bonus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;score_wis.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label_attr_proficient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 42</value>
+  </data>
+  <data name="label_dexterity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;points_con_total.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox_class.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;points_wis_total.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ui_saving_throw_str.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ui_score_dex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="score_wis.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;score_cha.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label_constitution.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ui_pts_dex.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ui_saving_throw_str.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="ui_score_dex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 87</value>
+  </data>
+  <data name="label_intelligence.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label_charisma.Name" xml:space="preserve">
+    <value>label_charisma</value>
+  </data>
+  <data name="&gt;&gt;label_attr_proficient.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label_ability_scores.Name" xml:space="preserve">
+    <value>label_ability_scores</value>
+  </data>
+  <data name="&gt;&gt;textBox18.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label_wisdom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="&gt;&gt;label_charisma.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label_ability_scores.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_wis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_attr_saving_throw_bonus.Text" xml:space="preserve">
+    <value>Bonus</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_str.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ui_pts_wis.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="textBox17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 161</value>
+  </data>
+  <data name="points_int_cha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 190</value>
+  </data>
+  <data name="&gt;&gt;proficient_wis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="points_int_cha.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label_attr_points_total.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 395</value>
+  </data>
+  <data name="&gt;&gt;ui_saving_throw_dex.Name" xml:space="preserve">
+    <value>ui_saving_throw_dex</value>
+  </data>
+  <data name="&gt;&gt;ui_points_str_total.Name" xml:space="preserve">
+    <value>ui_points_str_total</value>
+  </data>
+  <data name="label_dexterity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 90</value>
+  </data>
+  <data name="&gt;&gt;ui_score_str.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_str.Name" xml:space="preserve">
+    <value>ui_pts_str</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="comboBox_race.Items" xml:space="preserve">
+    <value>Dwarf</value>
+  </data>
+  <data name="&gt;&gt;points_con_total.Name" xml:space="preserve">
+    <value>points_con_total</value>
+  </data>
+  <data name="textBox16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="label_wisdom.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ui_score_str.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 60</value>
+  </data>
+  <data name="label_score.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 42</value>
+  </data>
+  <data name="proficient_con.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="label_attr_proficient.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="score_cha.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label_attr_saving_throw_bonus.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="points_wis_total.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;ui_score_dex.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="ui_pts_dex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 86</value>
+  </data>
+  <data name="points_int_cha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="label_attr_saving_throw_bonus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 42</value>
+  </data>
+  <data name="ui_pts_int.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label_score.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="textBox17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;label_wisdom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_constitution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>318, 235</value>
+  </data>
+  <data name="ui_pts_str.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="ui_points_dex_total.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="textBox17.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="proficient_int.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 137</value>
+  </data>
+  <data name="&gt;&gt;score_int.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="textBox15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="label_strength.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ui_score_str.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;proficient_str.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label_constitution.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="score_wis.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;label_score.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textBox18.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="proficient_cha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 189</value>
+  </data>
+  <data name="&gt;&gt;label_attr_points_total.Name" xml:space="preserve">
+    <value>label_attr_points_total</value>
+  </data>
+  <data name="points_wis_total.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;comboBox_class.Name" xml:space="preserve">
+    <value>comboBox_class</value>
+  </data>
+  <data name="&gt;&gt;label_dexterity.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="ui_pts_dex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="&gt;&gt;score_wis.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label_attr_saving_throw_bonus.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="ui_pts_int.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="&gt;&gt;ui_points_dex_total.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ui_points_dex_total.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 87</value>
+  </data>
+  <data name="&gt;&gt;comboBox_race.Name" xml:space="preserve">
+    <value>comboBox_race</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_dex.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;proficient_int.Name" xml:space="preserve">
+    <value>proficient_int</value>
+  </data>
+  <data name="&gt;&gt;comboBox_class.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;score_wis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_intelligence.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ui_score_dex.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="textBox18.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;textBox16.Name" xml:space="preserve">
+    <value>textBox16</value>
+  </data>
+  <data name="&gt;&gt;label_dexterity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_attr_proficient.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label_ability_scores.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="score_cha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="label_intelligence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="proficient_con.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;points_con_total.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;textBox17.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="ui_pts_con.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="comboBox_race.Items7" xml:space="preserve">
+    <value>Half-Orc</value>
+  </data>
+  <data name="label_wisdom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 168</value>
+  </data>
+  <data name="&gt;&gt;ui_saving_throw_str.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="proficient_dex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 86</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_wis.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;label_attr_proficient.Name" xml:space="preserve">
+    <value>label_attr_proficient</value>
+  </data>
+  <data name="&gt;&gt;proficient_con.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label_race.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;proficient_dex.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label_ability_scores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ui_saving_throw_dex.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="ui_points_dex_total.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;proficient_dex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ui_score_str.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;label_attr_points_total.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label_attr_saving_throw_bonus.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="points_con_total.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;label_dexterity.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;textBox16.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;label_score.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label_attr_points_total.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 42</value>
+  </data>
+  <data name="&gt;&gt;score_cha.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label_saving_throws.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_con.Name" xml:space="preserve">
+    <value>ui_pts_con</value>
+  </data>
+  <data name="&gt;&gt;comboBox_race.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBox_class.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ui_saving_throw_str.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_cha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_con.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_strength.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox15.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;label_class.Name" xml:space="preserve">
+    <value>label_class</value>
+  </data>
+  <data name="score_cha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 190</value>
+  </data>
+  <data name="&gt;&gt;label_intelligence.Name" xml:space="preserve">
+    <value>label_intelligence</value>
+  </data>
+  <data name="label_constitution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 116</value>
+  </data>
+  <data name="points_int_total.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="proficient_dex.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label_attr_saving_throw_bonus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ui_points_dex_total.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="comboBox_race.Items5" xml:space="preserve">
+    <value>Gnome</value>
+  </data>
+  <data name="label_ability_scores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="&gt;&gt;label_race.Name" xml:space="preserve">
+    <value>label_race</value>
+  </data>
+  <data name="&gt;&gt;ui_saving_throw_dex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_race.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox16.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="ui_saving_throw_str.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 57</value>
+  </data>
+  <data name="label_attr_points_total.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;proficient_dex.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="comboBox_class.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 155</value>
+  </data>
+  <data name="comboBox_race.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 100</value>
+  </data>
+  <data name="&gt;&gt;ui_points_str_total.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label_dexterity.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;proficient_cha.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label_charisma.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="proficient_int.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_int.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;score_cha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_attr_proficient.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="comboBox_race.Items4" xml:space="preserve">
+    <value>Dragonborn</value>
+  </data>
+  <data name="&gt;&gt;textBox17.Name" xml:space="preserve">
+    <value>textBox17</value>
+  </data>
+  <data name="ui_pts_cha.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ui_score_str.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;proficient_cha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;points_wis_total.Name" xml:space="preserve">
+    <value>points_wis_total</value>
+  </data>
+  <data name="&gt;&gt;label_attr_points.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="proficient_cha.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;score_int.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="label_wisdom.Text" xml:space="preserve">
+    <value>Wisdom</value>
+  </data>
+  <data name="comboBox_class.Items7" xml:space="preserve">
+    <value>Sorcorer</value>
+  </data>
+  <data name="&gt;&gt;comboBox_race.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_race.Text" xml:space="preserve">
+    <value>Race</value>
+  </data>
+  <data name="label_score.Text" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="score_con.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>816, 613</value>
+  </data>
+  <data name="label_dexterity.Text" xml:space="preserve">
+    <value>Dexterity</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_dex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_saving_throws.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_str.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label_charisma.Text" xml:space="preserve">
+    <value>Charisma</value>
+  </data>
+  <data name="textBox15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 109</value>
+  </data>
+  <data name="proficient_wis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="proficient_int.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ui_pts_con.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ui_pts_str.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label_attr_saving_throw_bonus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="&gt;&gt;label_constitution.Name" xml:space="preserve">
+    <value>label_constitution</value>
+  </data>
+  <data name="&gt;&gt;proficient_int.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label_race.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 84</value>
+  </data>
+  <data name="&gt;&gt;score_int.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="points_wis_total.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 164</value>
+  </data>
+  <data name="ui_saving_throw_str.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_dex.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;label_wisdom.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label_attr_proficient.Text" xml:space="preserve">
+    <value>Proficient?</value>
+  </data>
+  <data name="&gt;&gt;proficient_wis.Name" xml:space="preserve">
+    <value>proficient_wis</value>
+  </data>
+  <data name="label_constitution.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 43</value>
+  </data>
+  <data name="ui_pts_str.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 60</value>
+  </data>
+  <data name="label_constitution.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_race.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="&gt;&gt;label_strength.Name" xml:space="preserve">
+    <value>label_strength</value>
+  </data>
+  <data name="proficient_str.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_ability_scores.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label_constitution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox_class.Items" xml:space="preserve">
+    <value>Barbarian</value>
+  </data>
+  <data name="label_attr_saving_throw_bonus.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Hello World</value>
+  </data>
+  <data name="&gt;&gt;ui_score_dex.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="proficient_wis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 165</value>
+  </data>
+  <data name="label_saving_throws.Text" xml:space="preserve">
+    <value>Saving Throws</value>
+  </data>
+  <data name="&gt;&gt;label_saving_throws.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBox15.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="label_race.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ui_pts_dex.Name" xml:space="preserve">
+    <value>ui_pts_dex</value>
+  </data>
+  <data name="ui_pts_wis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 164</value>
+  </data>
+  <data name="&gt;&gt;score_int.Name" xml:space="preserve">
+    <value>score_int</value>
+  </data>
+  <data name="comboBox_class.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="score_int.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="ui_pts_con.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 112</value>
+  </data>
+  <data name="ui_pts_cha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 190</value>
+  </data>
+  <data name="&gt;&gt;ui_points_dex_total.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="ui_pts_int.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 138</value>
+  </data>
+  <data name="&gt;&gt;label_class.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;points_int_total.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ui_score_dex.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>
